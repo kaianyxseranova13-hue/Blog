@@ -1,0 +1,5 @@
+# ads.txt
+# This file helps ad networks verify your site and qualify for better payouts.
+# Paste your publisher ID lines here once approved by an ad network.
+# Example (Google AdSense):
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

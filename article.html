@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Title — The Daily Brief</title>
+  <meta name="description" content="Article description goes here.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Article Title">
+  <meta property="og:description" content="Article description.">
+  <meta property="og:image" content="assets/hero-1.svg">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span class="date-today" id="dateToday"></span>
+        <div class="topbar-links">
+          <a href="#">Subscribe</a><a href="#">Advertise</a><a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="container header-main">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <a href="index.html" class="logo">The Daily <span>Brief</span></a>
+      <div class="header-actions">
+        <a href="#" class="btn btn-primary">Subscribe Free</a>
+      </div>
+    </div>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <div class="container nav-inner">
+        <a href="index.html">Home</a>
+        <a href="#">Politics</a><a href="#">Business</a><a href="#">Technology</a>
+        <a href="#">Science</a><a href="#">World</a><a href="#">Culture</a><a href="#">Opinion</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container article-layout">
+    <!-- ===== Article Body ===== -->
+    <article class="article">
+      <header class="article-header">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Business</div>
+        <h1>Major Global Tech Firms Announce Historic Climate Accord</h1>
+        <div class="article-meta">
+          <span class="byline">By Alex Rivera</span>
+          <span>·</span>
+          <span>2 hours ago</span>
+          <span>·</span>
+          <span>6 min read</span>
+        </div>
+        <div class="share-bar">
+          <span>Share:</span>
+          <a href="#">X</a><a href="#">Facebook</a><a href="#">LinkedIn</a><a href="#">Copy Link</a>
+        </div>
+      </header>
+
+      <div class="ad-slot ad-in-article" data-ad-label="In-Article">
+        <div class="ad-placeholder">Advertisement</div>
+      </div>
+
+      <div class="article-body">
+        <p class="lead">In a landmark move announced this morning, the world's largest technology companies have pledged to halve their collective carbon emissions by 2030, a commitment that analysts say could reshape the global energy economy.</p>
+
+        <p>The accord, signed by more than a dozen firms representing nearly $4 trillion in market value, includes binding targets for renewable energy procurement, supply-chain decarbonization, and $50 billion in green technology investment over the next five years.</p>
+
+        <p>"This is not a symbolic gesture," said a spokesperson for the initiative. "We are putting real money and real deadlines behind these targets, because our customers and our shareholders expect us to."</p>
+
+        <h2>A shift in corporate priorities</h2>
+        <p>Industry observers say the announcement marks a turning point. For years, environmental commitments were seen as marketing. Today's accord includes independent audits, publicly reported progress, and penalties for missing milestones.</p>
+
+        <blockquote>“The question is no longer whether corporations will act on climate, but how quickly and how transparently.”</blockquote>
+
+        <p>Economists estimate the plan could drive down the cost of renewable energy further, potentially accelerating the retirement of coal-fired plants across the developing world.</p>
+
+        <h2>What happens next</h2>
+        <p>Implementation will begin in phases, with interim targets set for 2026. Analysts will be watching for supply-chain effects on manufacturers and whether smaller competitors follow suit.</p>
+
+        <p>The agreement also includes a pledge to fund emissions-reduction projects in underserved regions, a point advocates have long pushed for.</p>
+
+        <p>For now, observers say the real test will be whether companies can follow through on ambitious promises over the coming decade.</p>
+      </div>
+
+      <!-- ===== In-Article Ad 2 ===== -->
+      <div class="ad-slot ad-inline" data-ad-label="Advertisement">
+        <div class="ad-placeholder">Advertisement · 336×280</div>
+      </div>
+
+      <div class="tags"><a href="#">Business</a><a href="#">Climate</a><a href="#">Technology</a></div>
+
+      <div class="author-box">
+        <div class="author-avatar">AR</div>
+        <div>
+          <strong>Alex Rivera</strong>
+          <p>Senior reporter covering business and technology.</p>
+        </div>
+      </div>
+
+      <div class="newsletter-inline">
+        <h3>Enjoying this story? Get more in your inbox.</h3>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </article>
+
+    <!-- ===== Sidebar ===== -->
+    <aside class="article-sidebar">
+      <div class="sidebar-box">
+        <h3>More from Business</h3>
+        <ul class="related" id="relatedList">
+          <!-- Injected from JS -->
+        </ul>
+      </div>
+      <div class="ad-slot ad-rectangle" data-ad-label="Rect">
+        <div class="ad-placeholder">Advertisement · 300×250</div>
+      </div>
+      <div class="sidebar-box">
+        <h3>Trending</h3>
+        <ol class="most-read" id="mostRead">
+          <!-- Injected from JS -->
+        </ol>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo">The Daily Brief</span>
+        <p>Fresh news and stories, updated daily.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <a href="#">Politics</a><a href="#">Business</a><a href="#">Technology</a><a href="#">Culture</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About</a><a href="#">Careers</a><a href="#">Contact</a><a href="#">Advertise</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Cookie Policy</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> The Daily Brief. All rights reserved.</span>
+      <span><a href="#">Back to top ↑</a></span>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

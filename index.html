@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Daily Wire — Fresh News & Stories</title>
+  <meta name="description" content="The Daily — your source for the latest news, analysis, and stories. Updated daily.">
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Daily Wire">
+  <meta property="og:description" content="Fresh news and stories, updated daily.">
+  <meta property="og:image" content="assets/og-cover.svg">
+  <meta property="og:url" content="https://kaianyxseranova13-hue.github.io/Blog/">
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://kaianyxseranova13-hue.github.io/Blog/">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span class="date-today" id="dateToday"></span>
+        <div class="topbar-links">
+          <a href="#">Subscribe</a>
+          <a href="#">Advertise</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="container header-main">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <a href="index.html" class="logo">The Daily <span>Brief</span></a>
+      <div class="header-actions">
+        <a href="#" class="btn btn-primary">Subscribe Free</a>
+      </div>
+    </div>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <div class="container nav-inner">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Politics</a>
+        <a href="#">Business</a>
+        <a href="#">Technology</a>
+        <a href="#">Science</a>
+        <a href="#">World</a>
+        <a href="#">Culture</a>
+        <a href="#">Opinion</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Leaderboard Ad (728x90) — AD SLOT 1 ===== -->
+  <div class="container">
+    <div class="ad-slot ad-leaderboard" data-ad-label="Advertisement">
+      <!--
+        GOOGLE ADSENSE: Paste your AdSense code here once approved.
+        Replace the placeholder div below with your publisher's ad unit.
+      -->
+      <div class="ad-placeholder">Advertisement · 728×90</div>
+    </div>
+  </div>
+
+  <main class="container">
+    <!-- ===== Breaking / Hero ===== -->
+    <section class="hero-grid">
+      <a href="article.html" class="hero-feature">
+        <div class="hero-img" style="background-image:url('assets/hero-1.svg')"></div>
+        <div class="hero-body">
+          <span class="tag tag-breaking">Breaking</span>
+          <h1>Major Global Tech Firms Announce Historic Climate Accord</h1>
+          <p class="hero-excerpt">In a landmark move, the world's largest technology companies have pledged to halve emissions by 2030...</p>
+          <span class="hero-meta">By Alex Rivera · 2 hours ago · Business</span>
+        </div>
+      </a>
+      <div class="hero-side">
+        <div class="ad-slot ad-halfpage" data-ad-label="Half Page">
+          <div class="ad-placeholder">Advertisement · 300×600</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trending Ticker ===== -->
+    <section class="trending">
+      <span class="trending-label">Trending</span>
+      <div class="trending-list" id="trendingList">
+        <a href="article.html">1. Fed holds interest rates steady</a>
+        <a href="article.html">2. New battery tech doubles EV range</a>
+        <a href="article.html">3. City approves first all-electric bus fleet</a>
+      </div>
+    </section>
+
+    <!-- ===== Latest News Grid ===== -->
+    <section class="section-heading">
+      <h2>Latest News</h2>
+      <a href="#" class="see-all">See all →</a>
+    </section>
+    <div class="news-grid" id="newsGrid">
+      <!-- Cards are injected by JS from data/news.json -->
+    </div>
+
+    <!-- ===== In-Feed Ad (auto) — AD SLOT 2 ===== -->
+    <div class="ad-slot ad-feed" data-ad-label="In-Feed">
+      <div class="ad-placeholder">Advertisement · In-Feed</div>
+    </div>
+
+    <!-- ===== Two-column: Editor's Picks + Sidebar ===== -->
+    <section class="two-col">
+      <div class="col-main">
+        <section class="section-heading">
+          <h2>Editor's Picks</h2>
+        </section>
+        <div class="picks-list" id="picksList">
+          <!-- Injected from JS -->
+        </div>
+      </div>
+      <aside class="col-side">
+        <div class="sidebar-box">
+          <h3>Most Read</h3>
+          <ol class="most-read" id="mostRead">
+            <!-- Injected from JS -->
+          </ol>
+        </div>
+        <div class="ad-slot ad-rectangle" data-ad-label="Rect">
+          <div class="ad-placeholder">Advertisement · 300×250</div>
+        </div>
+        <div class="sidebar-box">
+          <h3>Newsletter</h3>
+          <p>Get the day's top stories in your inbox.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo">The Daily Brief</span>
+        <p>Fresh news and stories, updated daily.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <a href="#">Politics</a><a href="#">Business</a><a href="#">Technology</a><a href="#">Culture</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About</a><a href="#">Careers</a><a href="#">Contact</a><a href="#">Advertise</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Cookie Policy</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> The Daily Brief. All rights reserved.</span>
+      <span><a href="#">Back to top ↑</a></span>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
